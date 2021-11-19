@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+h1,h2,h3,h4 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #0b1f33;
+}
+.header {
+    margin-top: 52px;
+    margin-bottom: 32px;
+}
+.container {
+    margin: 0 auto;
+    margin: 8px;
+    max-width: 350px;
+}
+.header__wrapper {
+    display: flex;
+    align-items: center;
+}
+.header__gosuslugi {
+    margin-left: 24px;
+}
+.header__gosuslugi-image {
+    display: flex;
+    align-items: center;
+}
+.lang__rus {
+    margin-right: 5px;
+    max-width: 24px;
+}
+.rus_lang {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.lang {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.lang__text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0b1f33;
+    font-family: 'Lato', sans-serif;
+}
+
+.main__wrapper {
+    max-width: 350px;
+    min-height: 171px;
+    background: url(../img/Снимок.png);
+    border-radius: 16px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.main__title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+.status_wrapper {
+    margin: 0 auto;
+    padding: 6px 32px;
+    background: #fff;
+    border-radius: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.status_text {
+    font-size: 14px;
+    line-height: 20px;
+    color: #0b1f33;
+    font-weight: 400;
+}
+.valid {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.preson_date {
+    margin-right: 12px;
+}
+.preson__date-text {
+    margin-right: 4px;
+    color: #66727f;
+}
+.preson__date-text {
+    color: #66727f;
+}
+.border {
+    height: 1px;
+    background: #66727f;
+    width: 100%;
+    opacity: 0.2;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.personal__wrap {
+    text-align: center;
+}
+.personal__name {
+    line-height: 24px;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 600;
+    color: #0b1f33;
+    display: block;
+    margin-bottom: 4px;
+}
+.personal__date-wrap {
+    display: flex;
+    justify-content: center;
+}
+.personal__birt {
+    margin-right: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.presonal_date-birt {
+    color: #66727f;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+.button__close {
+    margin-top: 24px;
+    display: block;
+    border: 2px solid #0d4cd3;
+    border-radius: 8px;
+    padding: 14px 0;
+    text-align: center;
+    text-decoration: none;
+    color: #0d4cd3;
+}
+
+@media (max-width: 1600px) {
+    .container{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .main {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}
